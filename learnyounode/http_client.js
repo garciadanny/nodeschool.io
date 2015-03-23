@@ -7,7 +7,7 @@ var http = require('http'),
 // You can treat streams as objects that emit events, the 3 events
 // that are of most interest are 'data', 'error', and 'end'.
 // You listen to an event like so:
-// `respnose.on('data', function(data) {/*...*/})
+// `response.on('data', function(data) {/*...*/})
 // This response object also has a setEncoding() function.
 // When called with 'utf8', the data events will emit strings
 // instead of Buffer objects which you explicitly have
